@@ -1,0 +1,38 @@
+#: import main app_coolnames
+#: import ListAdapter kivy.adapters.listadapter.ListAdapter
+#: import ListItemButton kivy.uix.listview.ListItemButton
+
+CoolNames:
+
+<CoolNames>:
+    orientation: "horizontal"
+    newname: cool_name
+    rec_names_list: sim_names
+    
+    BoxLayout:
+        cols:3
+        spacing: 20
+        padding: 20
+        orientation: "vertical"
+        Label:
+            text: "What's a name you like?"
+        TextInput:
+            id: cool_name
+        
+        Button:
+            text: "See names you might like!"
+
+            on_press:
+                root.submit_newname()
+                
+    GridLayout:
+        cols: 3
+        ListView:
+            id: sim_names
+            adapter:
+                ListAdapter(data=[],cls=main.SimilarNamesList)
+                
+                
+
+
+        

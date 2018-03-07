@@ -1,5 +1,5 @@
 # kivy-name-suggestor(simple)
-Very simple version of a name recommender using the Kivy and Python languages 
+Very simple version of a name recommender using the Kivy and Python languages. 
 The frontend is not finished (at all). But it works. Has not been tested for funny text inputs. 
 The .csv files with names, ipa, ipa features will be made available soon. 
 Names were collected for free from US Social Security Administration

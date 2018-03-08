@@ -13,6 +13,7 @@ All names used in the United States from 1880 until 2016 (at the time I wrote th
 
 Extract the file in the same directory as the script "nametxt2csv.py". 
 * IMPORTANT!!! No other .txt files can be in the directory!!!!
+
 Run the script and you will get the latest namelist saved in a .csv with column names (in the same directory).
 
 ### IPA features

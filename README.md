@@ -1,5 +1,6 @@
 # Kivy-Name-Recommender(simple)
-Very simple version of a name recommender using the Kivy and Python languages. 
+Very simple version of a name recommender using the Kivy and Python languages. The basic idea is that names are recommended based on the sounds and structure a name the user likes. Type in a name, get 30-40 shown on the screen. Click on a name on the screen, get 30-40 names shown based on how that name sounds. The recommendation list for each name can be refreshed over and over for a new set of recommendations. The goal is to get exposed to names one might not normally have heard of. 
+
 The frontend is not finished (at all). But it works. Has not been tested for funny text inputs. 
 
 I will provide the links and .py scripts I used/wrote to collect and prepare names for the recommender as well as the scripts for the recommender and app.

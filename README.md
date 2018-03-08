@@ -13,7 +13,9 @@ All names used in the United States from 1880 until 2016 (at the time I wrote th
 
 Extract the file in the same directory as the script "nametxt2csv.py". Run the script and you will get the latest namelist saved in a .csv with column names (in the same directory).
 
-### Extract IPA features
+### IPA features
 For reference, here is a link to the International Phonetic Alphabet. https://www.internationalphoneticassociation.org/content/full-ipa-chart
+In the same directory as the .csv namelist, to only apply basic IPA features, run the "namelist_IPAprep_basic.py" script. This will provide another .csv with several new features as columns. This would already be useful in various machine learning contexts. 
+The more advanced-features script will be provided soon.
 
 

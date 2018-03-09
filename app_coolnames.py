@@ -134,6 +134,3 @@ class CoolNamesApp(App):
     
 cnApp = CoolNamesApp()
 cnApp.run()
-        
-
-
